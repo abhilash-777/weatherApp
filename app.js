@@ -6,8 +6,8 @@ const app = express();
 const weatherData = require('./utils/weatherData');
 
 const publicPath = path.join(__dirname,"../public");
-const viewPath = path.join(__dirname,"../templates/views");
-const partialPath = path.join(__dirname,"../templates/partials");
+const viewPath = path.join(__dirname,"templates","views");
+const partialPath = path.join(__dirname,"templates","partials");
 
 // app.use(express.urlencoded({extended:true}));
 app.set('view engine','hbs');
